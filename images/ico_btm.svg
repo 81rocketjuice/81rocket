@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51" height="51" viewBox="0 0 51 51">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+        opacity: 0.5;
+      }
+    </style>
+  </defs>
+  <path id="ico_btm.svg" class="cls-1" d="M1042,1156.5a25.5,25.5,0,1,1-25.5-25.5A25.5,25.5,0,0,1,1042,1156.5Zm-13.08-3.06-0.91-.9-11.51,11.51-11.51-11.51-0.91.9,12.42,12.42Z" transform="translate(-991 -1131)"/>
+</svg>
