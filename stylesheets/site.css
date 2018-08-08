@@ -242,7 +242,7 @@ body.index {
       background-repeat: no-repeat;
       background-position: 0 0; }
       body.index .main ul.bxslider#bxslider01 li.slide01 {
-        background-image: url(/images/index/sp_slide01.jpg); }
+        background-image: url(images/index/sp_slide01.jpg); }
       body.index .main ul.bxslider#bxslider01 li.slide02 {
         background-image: url(/images/index/sp_slide02.jpg); }
       body.index .main ul.bxslider#bxslider01 li.slide03 {
@@ -867,11 +867,11 @@ body.company #data {
       body.index .main .next img {
         width: 50px; }
     body.index .main ul.bxslider#bxslider01 li.slide01 {
-      background-image: url(images/index/pc_slide01.jpg); }
+      background-image: url(/images/index/pc_slide01.jpg); }
     body.index .main ul.bxslider#bxslider01 li.slide02 {
-      background-image: url(images/index/pc_slide02.jpg); }
+      background-image: url(/images/index/pc_slide02.jpg); }
     body.index .main ul.bxslider#bxslider01 li.slide03 {
-      background-image: url(images/index/pc_slide03.jpg); }
+      background-image: url(/images/index/pc_slide03.jpg); }
     body.index .main p.main-copy {
       font-size: 24px; }
     body.index #lead {
@@ -1117,19 +1117,19 @@ body.company #data {
   figure.pc_item_img01 {
     width: 728px;
     height: 187px;
-    background: url(images/item/pc/img01.png) no-repeat left top; }
+    background: url(/images/item/pc/img01.png) no-repeat left top; }
 
   figure.pc_item_img02 {
     height: 160px;
-    background: url(images/item/pc/img02.png) no-repeat left top; }
+    background: url(/images/item/pc/img02.png) no-repeat left top; }
 
   figure.pc_item_img03 {
     height: 270px;
-    background: url(images/item/pc/img03.png) no-repeat left top; }
+    background: url(/images/item/pc/img03.png) no-repeat left top; }
 
   figure.pc_item_img04 {
     height: 190px;
-    background: url(images/item/pc/img04.png) no-repeat left top; }
+    background: url(/images/item/pc/img04.png) no-repeat left top; }
 
   /* ==========================================================================
      pages: company
