@@ -1,0 +1,1 @@
+JAL.csr={init:function(){function i(){var i=$("#ph").outerHeight(),n=$(window).height()-i;$("#bg-fix-img").height(n),$("#bg-fix-img").css("padding-top",i)}$(function(){i()}),$(window).resize(function(){i()})}},JAL.csr.init();
