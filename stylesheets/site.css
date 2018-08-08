@@ -1117,19 +1117,19 @@ body.company #data {
   figure.pc_item_img01 {
     width: 728px;
     height: 187px;
-    background: url(/images/item/pc/img01.png) no-repeat left top; }
+    background: url(images/item/pc/img01.png) no-repeat left top; }
 
   figure.pc_item_img02 {
     height: 160px;
-    background: url(/images/item/pc/img02.png) no-repeat left top; }
+    background: url(images/item/pc/img02.png) no-repeat left top; }
 
   figure.pc_item_img03 {
     height: 270px;
-    background: url(/images/item/pc/img03.png) no-repeat left top; }
+    background: url(images/item/pc/img03.png) no-repeat left top; }
 
   figure.pc_item_img04 {
     height: 190px;
-    background: url(/images/item/pc/img04.png) no-repeat left top; }
+    background: url(images/item/pc/img04.png) no-repeat left top; }
 
   /* ==========================================================================
      pages: company
