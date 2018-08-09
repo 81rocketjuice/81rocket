@@ -1,6 +1,6 @@
 $(function(){
     var domain = "tumblr.com";
-    var api_key = "sZip2Y6YxHtpjqCWKUVEfrmOncL51iEowyLg5OadmT287StJOO";
+    var api_key = "";
     var getTag1 = "snap";
     var getTag2 = "topics";
 
@@ -8,7 +8,7 @@ $(function(){
 
     // LOAD SNAP
     $.ajax({
-        url: "https://api.tumblr.com/v2/blog/"+domain+"/posts?api_key="+api_key+"&tag="+getTag1,
+        url: "https://api.tumblr.com"+api_key+"&tag="+getTag1,
         dataType: "jsonp"
     }).done(function(evt) {
         var img = new Image();
@@ -71,7 +71,7 @@ $(function(){
 
     // LOAD TOPIX
     $.ajax({
-        url: "https://api.tumblr.com/v2/blog/"+domain+"/posts?api_key="+api_key+"&tag="+getTag2,
+        url: "https://api.tumblr.com"+api_key+"&tag="+getTag2,
         dataType: "jsonp"
     }).done(function(evt) {
         var img = new Image();
