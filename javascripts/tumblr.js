@@ -1,5 +1,5 @@
 $(function(){
-    var domain = "tottamitta.tumblr.com";
+    var domain = "tumblr.com";
     var api_key = "sZip2Y6YxHtpjqCWKUVEfrmOncL51iEowyLg5OadmT287StJOO";
     var getTag1 = "snap";
     var getTag2 = "topics";
