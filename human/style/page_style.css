@@ -1,0 +1,1299 @@
+@charset "utf-8";
+@import url("reset.css");
+
+/*	[基本設定]
+-----------------------------------------------*/
+html { overflow-y: scroll; }
+
+body {
+	background: #F3F0E8;
+	color: #333;
+	font-family: "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3",sans-serif;
+	font-size: .875em;
+	font-weight: normal;
+	line-height: 1.6;
+	text-align: center;
+}
+
+div#wrapper {
+	width: 950px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+
+
+
+
+/*	[div#header]
+-----------------------------------------------*/
+div#header {
+	position: fixed;
+	z-index: 50;
+	width: 950px;
+	padding: 12px 0 10px 0;
+	background: #F3F0E8;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#header div#header_logo {
+	float: left;
+	margin: 8px 57px 0 0;
+}
+
+div#header ul {
+	float: left;
+	padding: 18px 0 0 0;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#header ul li {
+	float: left;
+	margin: 0 12px 0 0;
+}
+
+div#header p {
+	float: right;
+}
+
+
+
+
+
+/*	[div#contents]
+-----------------------------------------------*/
+div#contents {
+	padding: 90px 0 30px 0;
+	_padding-top: 0;
+}
+
+
+/*----- リンク設定 -----*/
+
+div#contents a:link,
+div#contents a:visited,
+div#contents a:active {
+	color: #333;
+	text-decoration: underline;
+}
+
+div#contents a:hover {
+	text-decoration: none;
+}
+
+
+
+/*----- #screenshot -----*/
+
+#screenshot {
+	display: none;
+	position: absolute;
+	color: #FFF;
+	z-index: 60;
+}
+
+
+/*----- .box -----*/
+
+div#contents div.box {
+	background: url(../images/bg_02.gif) 0 0 repeat-y;
+}
+
+div#contents div.box_inner {
+	background: url(../images/bg_02_btm.gif) 0 bottom no-repeat;
+	zoom: 1;
+}
+
+div#contents div.box h2 {
+	background: url(../images/bg_02_top.gif) 0 0 no-repeat;
+	text-align: center;
+}
+
+
+
+/*----- #social_box -----*/
+
+div#social_box {
+	margin: 0 0 20px 0;
+}
+
+div#social_box ul {
+	float: right;
+	height: 35px;
+}
+
+div#social_box ul li {
+	float: left;
+	_width: 1px;
+	padding: 0 0 0 10px;
+	zoom: 1;
+}
+
+
+
+
+
+
+/*----- question01 -----*/
+
+div#question01 {
+	margin: 40px 0;
+	padding: 0 0 20px 0;
+	background: #FFF;
+}
+
+div#question01 p.answer {
+	margin: -16px 0 12px 0;
+}
+
+div#question01 div.inner {
+	margin: 0 15px;
+	padding: 13px 0 25px 0;
+	background: url(../images/bg_question01_01.gif) 0 0 repeat;
+}
+
+div#question01 div.voice01,
+div#question01 div.voice02,
+div#question01 div.voice03 {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+/* voice01 */
+div#question01 div.voice01 {
+	padding: 0 0 0 16px;
+}
+
+div#question01 div.voice01 img.image {
+	float: left;
+}
+
+div#question01 div.voice01 div.comment {
+	float: left;
+	width: 545px;
+	min-height: 363px;
+	_height: 421px;
+	padding: 58px 0 0 0;
+	background: url(../images/bg_question01_02.gif) 0 21px no-repeat;
+}
+
+div#question01 div.voice01 div.comment p {
+	margin: 0 39px 20px 28px;
+}
+
+
+/* voice02 */
+div#question01 div.voice02 {
+	padding: 8px 0 0 18px;
+}
+
+div#question01 div.voice02 img.image {
+	float: right;
+}
+
+div#question01 div.voice02 div.comment {
+	width: 556px;
+	_width: auto;
+	min-height: 362px;
+	_height: 432px;
+	padding: 70px 0 0 0;
+	background: url(../images/bg_question01_03.gif) 0 30px no-repeat;
+}
+
+div#question01 div.voice02 div.comment p {
+	margin: 0 60px 20px 24px;
+}
+
+div#question01 div.voice02 div.comment p.lead {
+	margin-right: 0;
+}
+
+
+/* voice03 */
+div#question01 div.voice03 {
+	padding: 6px 0 0 16px;
+}
+
+div#question01 div.voice03 img.image {
+	float: left;
+}
+
+div#question01 div.voice03 div.comment {
+	float: left;
+	width: 546px;
+	min-height: 362px;
+	_height: 446px;
+	padding: 84px 0 0 0;
+	background: url(../images/bg_question01_04.gif) 0 41px no-repeat;
+}
+
+div#question01 div.voice03 div.comment p {
+	margin: 0 40px 20px 23px;
+}
+
+div#question01 div.voice03 div.comment p.lead {
+	margin-right: 0;
+}
+
+
+/*----- question02 -----*/
+
+div#question02 {
+	margin: 0 0 65px 0;
+	padding: 0 0 20px 0;
+	background: #fff;
+}
+
+
+/* div.inner01 */
+div#question02 div.inner01 {
+	margin: 0 35px;
+}
+
+div#question02 div.inner01 p {
+	margin: 0 0 5px 0;
+}
+
+
+/* div.inner02 */
+div#question02 div.inner02 {
+	position: relative;
+	margin: 30px 0 15px 0;
+}
+
+div#question02 div.inner02 img.image {
+	position: relative;
+	z-index: 0;
+	margin: 0 0 30px 0;
+}
+
+div#question02 div.inner02 p#skill01,
+div#question02 div.inner02 p#skill02,
+div#question02 div.inner02 p#skill03,
+div#question02 div.inner02 p#skill04,
+div#question02 div.inner02 p#skill05 {
+	position: absolute;
+	background: url(../images/bg_tooltip_ie.gif) 0 0 no-repeat;
+	z-index: 60;
+}
+
+div#question02 div.inner02 p#skill01 a,
+div#question02 div.inner02 p#skill02 a,
+div#question02 div.inner02 p#skill03 a,
+div#question02 div.inner02 p#skill04 a,
+div#question02 div.inner02 p#skill05 a {
+	display: block;
+	width: 240px;
+	height: 80px;
+	text-indent: -9999px;
+}
+
+div#question02 div.inner02 p#skill01 {
+	top: 46%;
+	left: 7%;
+}
+
+div#question02 div.inner02 p#skill02 {
+	top: 462px;
+	left: 256px;
+}
+
+div#question02 div.inner02 p#skill01 a,
+div#question02 div.inner02 p#skill02 a {
+	width: 241px;
+	height: 87px;
+}
+
+div#question02 div.inner02 p#skill03 {
+	top: 161px;
+	left: 499px;
+}
+
+div#question02 div.inner02 p#skill04 {
+	top: 166px;
+	left: 171px;
+}
+
+div#question02 div.inner02 p#skill05 {
+	top: 48.8%;
+	left: 70%;
+}
+
+div#question02 div.inner02 p#btn_occupation {
+	position: absolute;
+	top: 404px;
+	left: 738px;
+}
+
+
+/* div.inner03 */
+/* 20130415訴求ボタン部分変更 */
+div#question02 div.inner03 {
+	margin: 0 50px;
+	padding: 8px;
+	background: url(../images/bg_01.gif) 0 0 repeat;
+}
+
+div#question02 div.inner03 div.inner {
+	position: relative;
+	height: 315px;
+	background: #FFF;
+}
+
+div#question02 div.inner03 p {
+	position: absolute;
+}
+
+div#question02 div.inner03 p.pamphlet {
+	top: 0px;
+	left: 0px;
+}
+
+div#question02 div.inner03 p.btn {
+	top: 116px;
+	left: 238px;
+}
+
+div#question02 div.inner03 p.tel {
+	top: 230px;
+	left: 482px;
+}
+
+
+
+/*----- feature -----*/
+
+div#feature {
+	margin: 0 0 30px 0;
+}
+
+div#feature h2 {
+	margin: 0 0 15px 0;
+	text-align: center;
+}
+
+div#feature div.point {
+	background: url(../images/bg_feature01.gif) 0 0 repeat-y;
+}
+
+div#feature div.point_inner {
+	padding: 0 0 20px 0;
+	background: url(../images/bg_feature01_btm.gif) 0 bottom no-repeat;
+}
+
+div#feature div.point p.lead {
+	margin: 20px;
+}
+
+
+/* div#point01 */
+
+div#feature div#point01 h3 {
+	margin: 0 0 20px 0;
+}
+
+div#feature div#point01 p.image {
+	margin: 20px 0 0 0;
+	text-align: center;
+}
+
+
+/* div#point02 */
+
+div#feature div#point02 div.point_inner {
+	padding-bottom: 35px;
+}
+
+div#feature div#point02 p.image {
+	text-align: center;
+}
+
+div#feature div#point02 h4 {
+	margin: 0 0 14px 28px;
+}
+
+
+/* div#point03 */
+
+div#feature div#point03 div.point_inner {
+	padding-bottom: 25px;
+}
+
+div#feature div#point03 p.ondemand {
+	margin: 20px 0 23px 0;
+	text-align: center;
+}
+
+div#feature div#point03 div#lecturer01,
+div#feature div#point03 div#lecturer02 {
+	position: relative;
+	margin: 0 19px;
+	border: 1px solid #e6e6e6;
+	background: url(../images/bg_feature03.gif) 0 0 repeat;
+}
+
+div#feature div#point03 div#lecturer01 {
+	padding: 30px 0 20px 25px;
+}
+
+div#feature div#point03 div#lecturer01 img.image {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+div#feature div#point03 div#lecturer01 p {
+	width: 465px;
+}
+
+div#feature div#point03 div#lecturer01 p.name {
+	width: auto;
+	margin: 20px 0;
+}
+
+
+div#feature div#point03 div#lecturer02 {
+	padding: 25px 0 25px 305px;
+}
+
+div#feature div#point03 div#lecturer02 img.image {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+div#feature div#point03 div#lecturer02 p {
+	width: 560px;
+	margin: 0 0 0 10px;
+}
+
+div#feature div#point03 div#lecturer02 p.name {
+	width: auto;
+	margin: 40px 0 20px 10px;
+}
+
+
+/* div#point04 */
+div#feature div#point04 div.point_inner {
+	padding-bottom: 30px;
+}
+
+div#feature div#point04 ol {
+	margin: 0 -16px 0 19px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#feature div#point04 ol li {
+	float: left;
+	width: 447px;
+	margin: 0 16px 0 0;
+	background: url(../images/bg_feature02.gif) 0 0 repeat-y;
+}
+
+div#feature div#point04 ol li#support01,
+div#feature div#point04 ol li#support02 {
+	margin-bottom: 18px;
+}
+
+div#feature div#point04 ol li div.inner {
+	position: relative;
+	background: url(../images/bg_feature02_btm.gif) 0 bottom no-repeat;
+}
+
+div#feature div#point04 ol li h4 {
+	margin: 0 0 15px 0;
+}
+
+div#feature div#point04 ol li p {
+	margin: 0 0 0 18px;
+}
+
+
+div#feature div#point04 ol li#support01 p.image {
+	padding: 15px 0 25px 0;
+	text-align: center;
+}
+
+div#feature div#point04 ol li#support02 p {
+	float: left;
+	width: 260px;
+}
+
+div#feature div#point04 ol li#support02 p.image01 {
+	float: right;
+	width: auto;
+	margin: 0;
+	padding: 0 15px 0 0;
+}
+
+div#feature div#point04 ol li#support02 p.image02 {
+	float: none;
+	 clear: both;
+	 width: auto;
+	 margin: 0;
+	 padding: 0 0 15px 0;
+	 text-align: center;
+}
+
+div#feature div#point04 ol li#support03 p.image {
+	margin: 0;
+	padding: 15px 0;
+	text-align: center;
+}
+
+div#feature div#point04 ol li#support04 p.image01,
+div#feature div#point04 ol li#support04 p.image02 {
+	margin: 0 15px 0 0;
+	text-align: right;
+}
+
+div#feature div#point04 ol li#support04 p.image02 {
+	padding-bottom: 15px;
+}
+
+
+
+
+
+
+/*----- div#question03 -----*/
+
+div#question03 {
+	margin: 30px 0 45px 0;
+	padding: 0 0 25px 0;
+	background: #FFF;
+	zoom: 1;
+}
+
+
+/* div.voice01 */
+div#question03 div.voice01 {
+	margin: 0 20px 25px 20px;
+}
+
+div#question03 div.voice01 ul {
+	position: relative;
+	z-index: 10;
+	_width: 915px;
+	margin: -80px -20px 0 8px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#question03 div.voice01 ul li {
+	float: left;
+	width: 285px;
+	margin: 0 20px 0 0;
+	background: url(../images/bg_question03_01_top.gif) 0 0 no-repeat;
+}
+
+div#question03 div.voice01 ul li div.inner01 {
+	padding: 10px 0;
+	background: url(../images/bg_question03_01_btm.gif) 0 bottom no-repeat;
+}
+
+div#question03 div.voice01 ul li div.inner02 {
+	background: url(../images/bg_question03_01.gif) 0 0 repeat-y;
+	zoom: 1;
+}
+
+div#question03 div.voice01 ul li p {
+	margin: 0 16px;
+}
+
+div#question03 div.voice01 ul li p.link {
+	margin: 10px 16px 5px 16px;
+	font-weight: bold;
+}
+
+div#question03 div.voice01 ul li p.link a {
+	padding: 4px 0 2px 25px;
+	background: url(../images/i_arrow01.gif) 0 0 no-repeat;
+}
+
+
+
+/* div.voice02 */
+div#question03 div.voice02 {
+	margin: 0 20px 30px 20px;
+}
+
+div#question03 div.voice02 ul {
+	position: relative;
+	z-index: 10;
+	_width: 908px;
+	margin: -130px -34px 0 16px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#question03 div.voice02 ul li {
+	float: left;
+	width: 420px;
+	margin: 0 34px 0 0;
+	background: url(../images/bg_question03_02_top.gif) 0 0 no-repeat;
+}
+
+div#question03 div.voice02 ul li div.inner01 {
+	padding: 10px 0;
+	background: url(../images/bg_question03_02_btm.gif) 0 bottom no-repeat;
+}
+
+div#question03 div.voice02 ul li div.inner02 {
+	background: url(../images/bg_question03_02.gif) 0 0 repeat-y;
+}
+
+div#question03 div.voice02 ul li p {
+	margin: 0 16px;
+}
+
+div#question03 div.voice02 ul li p.post {
+	margin-top: 10px;
+}
+
+div#question03 div.voice02 ul li p.link {
+	margin: 0 16px;
+	font-weight: bold;
+}
+
+div#question03 div.voice02 ul li p.link a {
+	padding: 4px 0 2px 25px;
+	background: url(../images/i_arrow01.gif) 0 0 no-repeat;
+}
+
+
+
+/* div.customer_satisfaction */
+div#question03 div.customer_satisfaction {
+	margin: 0 0 20px 0;
+}
+
+div#question03 div.customer_satisfaction ul {
+	margin: 10px -23px 10px 30px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#question03 div.customer_satisfaction ul li {
+	float: left;
+	margin: 0 23px 0 0;
+}
+
+div#question03 div.customer_satisfaction p {
+	margin: 0 45px;
+	text-align: right;
+}
+
+
+
+/* div.result */
+div#question03 div.result {
+	margin: 30px 0 0 20px;
+}
+
+div#question03 div.result p {
+	margin: 15px 15px 0 0;
+}
+
+
+
+/* div.request */
+/* 20130415訴求ボタン部分変更 ここは2番目の訴求ボタンなんだけど、これかくとずれちゃう*/
+div#question03 div.request {
+	margin: 0 50px;
+	padding: 8px;
+	background: url(../images/bg_01.gif) 0 0 repeat;
+}
+
+div#question03 div.request div.inner {
+	position: relative;
+	height: 315px;
+	background: #FFF;
+	zoom: 1;
+}
+
+div#question03 div.request p {
+	position: absolute;
+}
+
+div#question03 div.request p.pamphlet {
+	top: 0px;
+	left: 0px;
+}
+
+div#question03 div.request p.btn {
+	top: 116px;
+	left: 238px;
+}
+
+/* 20130415訴求ボタン部分変更 */
+
+div#visual {
+	margin-bottom: 30px;
+}
+
+div#sokyu_20130415 div.request {
+	margin: 0 50px;
+	padding: 8px;
+	background: url(../images/bg_01.gif) 0 0 repeat;
+}
+
+div#sokyu_20130415 div.request div.inner {
+	position: relative;
+	height: 315px;
+	background: #FFF;
+	zoom: 1;
+}
+
+div#sokyu_20130415 div.request p {
+	position: absolute;
+}
+
+div#sokyu_20130415 div.request p.pamphlet {
+	top: 0px;
+	left: 0px;
+}
+
+div#sokyu_20130415 div.request p.btn {
+	top: 116px;
+	left: 238px;
+}
+
+
+/*----- div#school -----*/
+
+div#school {
+	margin: 0 0 25px 0;
+}
+
+div#school div.box_inner {
+	padding-bottom: 30px;
+}
+
+div#school h2 {
+	padding: 8px 0 0 0;
+}
+
+div#school div.map {
+	position: relative;
+	height: 545px;
+	margin: 0 25px;
+	text-align: center;
+}
+
+div#school div.map img {
+	position: relative;
+	z-index: 0;
+}
+
+div#school div.map ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+div#school div.map ul li {
+	position: absolute;
+	z-index: 10;
+	background: url(../images/bg_tooltip_ie.gif) 0 0 no-repeat;
+	font-size: 10px;
+}
+
+div#school div.map ul li#school01 {
+	top: 202px;
+	left: 784px;
+}
+
+div#school div.map ul li#school02 {
+	top: 202px;
+	left: 814px;
+}
+
+div#school div.map ul li#school03 {
+	top: 337px;
+	left: 674px;
+}
+
+div#school div.map ul li#school04 {
+	top: 337px;
+	left: 704px;
+}
+
+div#school div.map ul li#school05 {
+	top: 337px;
+	left: 749px;
+}
+
+div#school div.map ul li#school06 {
+	top: 355px;
+	left: 674px;
+}
+
+div#school div.map ul li#school07 {
+	top: 355px;
+	left: 704px;
+}
+
+div#school div.map ul li#school08 {
+	top: 355px;
+	left: 735px;
+}
+
+div#school div.map ul li#school09 {
+	top: 373px;
+	left: 674px;
+}
+
+div#school div.map ul li#school10 {
+	top: 373px;
+	left: 704px;
+}
+
+div#school div.map ul li#school11 {
+	top: 373px;
+	left: 736px;
+}
+
+div#school div.map ul li#school12 {
+	top: 122px;
+	left: 501px;
+}
+
+div#school div.map ul li#school13 {
+	top: 140px;
+	left: 501px;
+}
+
+div#school div.map ul li#school14 {
+	top: 158px;
+	left: 496px;
+}
+
+div#school div.map ul li#school15 {
+	top: 461px;
+	left: 511px;
+}
+
+div#school div.map ul li#school16 {
+	top: 461px;
+	left: 440px;
+}
+
+div#school div.map ul li#school17 {
+	top: 425px;
+	left: 426px;
+}
+
+div#school div.map ul li#school18 {
+	top: 425px;
+	left: 485px;
+}
+
+div#school div.map ul li#school19 {
+	top: 443px;
+	left: 452px;
+}
+
+div#school div.map ul li#school20 {
+	top: 443px;
+	left: 498px;
+}
+
+div#school div.map ul li#school21 {
+	top: 210px;
+	left: 364px;
+}
+
+div#school div.map ul li#school22 {
+	top: 228px;
+	left: 334px;
+}
+
+div#school div.map ul li#school23 {
+	top: 228px;
+	left: 364px;
+}
+
+div#school div.map ul li#school24 {
+	top: 210px;
+	left: 334px;
+}
+
+div#school div.map ul li#school25 {
+	top: 351px;
+	left: 171px;
+}
+
+div#school div.map ul li#school26 {
+	top: 351px;
+	left: 201px;
+}
+
+div#school div.map ul li#school27 {
+	top: 333px;
+	left: 186px;
+}
+
+div#school div.map ul li#school28 {
+	top: 333px;
+	left: 231px;
+}
+
+div#school div.map ul li#school29 {
+	top: 351px;
+	left: 246px;
+}
+
+div#school div.map ul li a {
+	display: block;
+	width: 30px;
+	height: 17px;
+	text-indent: -9999px;
+}
+
+div#school div.map ul li#school04 a,
+div#school div.map ul li#school19 a,
+div#school div.map ul li#school26 a,
+div#school div.map ul li#school27 a {
+	width: 45px;
+}
+
+div#school div.map ul li#school05 a {
+	width: 18px;
+}
+
+div#school div.map ul li#school12 a,
+div#school div.map ul li#school13 a,
+div#school div.map ul li#school17 a {
+	width: 59px;
+}
+
+div#school div.map ul li#school14 a,
+div#school div.map ul li#school16 a,
+div#school div.map ul li#school18 a {
+	width: 70px;
+}
+
+
+div#school p {
+	text-align: center;
+}
+
+
+
+/*----- div#discount -----*/
+
+div#discount {
+	margin: 0 0 30px 0;
+}
+
+div#discount div.box_inner {
+	padding-bottom: 5px;
+	_padding-bottom: 25px;
+}
+
+*+html body div#discount div.box_inner {
+	padding-bottom: 25px;
+}
+
+div#discount h2 {
+	margin: 0 0 25px 0;
+	padding: 33px 0 0 0;
+	text-align: center;
+}
+
+div#discount ul {
+	_width: 915px;
+	margin: 0 0 20px 30px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#discount ul li {
+	float: left;
+	width: 287px;
+	margin: 0 18px 0 0;
+}
+
+div#discount ul li p {
+	margin: 0 18px 20px 18px;
+}
+
+div#discount ul li p.bottom {
+	margin-bottom: 0;
+}
+
+div#discount ul li p.notes {
+	margin-bottom: 0;
+	padding: 0 0 0 1em;
+	text-indent: -1em;
+}
+
+
+div#discount ul li div.box_orange {
+	background: url(../images/bg_discount01_top.gif) 0 0 no-repeat;
+}
+
+div#discount ul li div.box_orange div.inner01 {
+	padding: 18px 0 16px 0;
+	background: url(../images/bg_discount01_btm.gif) 0 bottom no-repeat;
+}
+
+div#discount ul li div.box_orange div.inner02 {
+	background: url(../images/bg_discount01.gif) 0 0 repeat-y;
+}
+
+
+div#discount ul li div.box_blue {
+	background: url(../images/bg_discount02_top.gif) 0 0 no-repeat;
+}
+
+div#discount ul li div.box_blue div.inner01 {
+	padding: 18px 0 16px 0;
+	background: url(../images/bg_discount02_btm.gif) 0 bottom no-repeat;
+}
+
+div#discount ul li div.box_blue div.inner02 {
+	background: url(../images/bg_discount02.gif) 0 0 repeat-y;
+}
+
+
+
+/*----- div#faq -----*/
+
+div#faq {
+	position: relative;
+	zoom: 1;
+}
+
+div#faq div.box_inner {
+	padding-bottom: 30px;
+	margin-top: 30px;
+}
+
+div#faq h2 {
+	margin: 0 0 0 0;
+	padding: 8px 0 0 0;
+}
+
+div#faq ul {
+	_width: 920px;
+	margin: 25px -30px 0 30px;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#faq ul li {
+	float: left;
+	width: 430px;
+	margin: 0 30px 0 0;
+	background: url(../images/bg_faq01.gif) 5px 0 no-repeat #dee77e;
+}
+
+div#faq ul li div.inner01 {
+	background: url(../images/bg_faq01_btm.gif) 0 bottom no-repeat;
+}
+
+div#faq ul li div.inner02 {
+	padding: 20px 20px 20px 15px;
+	background: url(../images/bg_faq01_top.gif) 0 0 no-repeat;
+}
+
+
+div#faq ul li h3 {
+	margin: 0 0 25px 0;
+	zoom: 1;
+}
+
+*+html body div#faq ul li h3 {
+	position: relative;
+}
+
+div#faq ul li p {
+	margin: 0 0 20px 0;
+}
+
+div#faq ul li p.bottom {
+	margin-bottom: 0;
+}
+
+
+
+/*----- div#ask -----*/
+
+div#ask {
+	margin: 20px 0;
+}
+
+div#ask p {
+	text-align: center;
+}
+
+* html body div#ask p img {
+	position: relative;
+	zoom: 1;
+}
+
+
+
+/*----- div#advice -----*/
+
+div#advice {
+	margin: 0 0 30px 0;
+	background: url(../images/bg_advice01.gif) 0 0 repeat-y;
+}
+
+div#advice div.inner {
+	padding: 0 0 30px 0;
+	background: url(../images/bg_advice01_btm.gif) 0 bottom no-repeat;
+}
+
+div#advice p {
+	margin: 0 35px;
+}
+
+div#advice div.image {
+	position: relative;
+	margin: 0 0 10px 0;
+	padding: 5px 3px 0 3px;
+	background: url(../images/bg_advice01_top.gif) 0 0 no-repeat;
+}
+
+div#advice div.image p.btn {
+	position: absolute;
+	top: 248px;
+	left: 44px;
+	margin: 0;
+}
+
+
+
+/*----- request -----*/
+
+div#request {
+	margin: 0 0 30px 0;
+	padding: 7px;
+	background: url(../images/bg_01.gif) 0 0 repeat;
+}
+
+* html body div#request {
+	position: relative;
+	zoom: 1;
+}
+
+
+div#request div.inner {
+	padding: 0 0 0 0;
+	background: #FFF;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#request h2 {
+	margin: 0 0 15px 0;
+}
+
+div#request p {
+	margin: 0 30px;
+}
+
+div#request p.image {
+	margin: 20px 0 15px 0;
+	text-align: center;
+}
+
+div#request p.btn {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 114px;
+	margin-bottom: 15px;
+}
+
+div#request p.tel {
+	text-align: right;
+	margin: 0 66px 0 0;
+}
+
+
+/*----- div#btn_box -----*/
+
+* html body div#btn_box {
+	position: relative;
+	zoom: 1;
+}
+
+div#btn_box ul {
+	_width: 980px;
+	margin: 0 -30px 0 0;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#btn_box ul li {
+	float: left;
+	margin: 0 30px 0 0;
+}
+
+
+
+/*	[div#footer]
+-----------------------------------------------*/
+* html body div#footer {
+	position: relative;
+}
+
+div#footer {
+	margin: 0 24px 50px 18px;
+	padding: 20px 0 0 0;
+	background: url(../images/bg_footer01.gif) 0 0 repeat-x;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#footer p {
+	float: left;
+}
+
+div#footer ul {
+	float: right;
+	overflow: hidden;
+	zoom: 1;
+}
+
+div#footer ul li {
+	float: left;
+}
+
+div#footer ul li a {
+	color: #1e1d1c;
+	text-decoration: underline;
+}
+
+div#footer ul li a:hover {
+	text-decoration: none;
+}
+
+/* ▼20130517_Adobeバナー*/
+.adobe_bnr {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*20130521追加訴求ボタン部分テキスト*/
+.sokyu_text {
+	font-size: large;
+	line-height: 140%;
+	position: relative;
+	height: 0;
+	left: 467px;
+	top: 29px;
+	font-weight: bold;
+	padding-top: 20px;
+}
